@@ -4,7 +4,7 @@ This is a python neural net module, adapted from a homework assignment I did in 
 
 ### Usage
 To **initialize** a network, call:
-`net = nn.Network(inDim,biases,hiddenDims,outDim,learningRate)`
+`net = nn.Network(inDim,biases,hiddenDims,outDim,learningRate)`,
 where:
 * inDim is the number of input dimensions (eg, 20)
 * biases is the number of input bias neurons (eg, 1)
@@ -13,7 +13,7 @@ where:
 * learningRate is the eta value in backpropagation (eg, .5)
 
 To **train** a network, call:
-`net.train(trainX,trainY,testX,testY,epochs)`
+`net.train(trainX,trainY,testX,testY,epochs)`,
 where:
 * trainX is a numpy array of training data (of size [n,inDim])
 * trainY is a numpy array of training data (of size [n,outDim])
@@ -24,6 +24,6 @@ where:
 Test data is fed into the training function to provide a per-epoch look at holdout error, and is never actually 'seen' by the network.
 
 To **predict** on a set of data, call:
-`net.predict(testX)`
+`net.predict(testX)`,
 where:
 * testX is a numpy array of test data (of size [n,inDim])
