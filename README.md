@@ -3,6 +3,8 @@
 This is a python neural net module, adapted from a homework assignment I did in Risi Kondor's Machine Learning class at the University of Chicago. 
 
 ### Usage
+First, call `import nn`.
+
 To **initialize** a network, call:
 `net = nn.Network(inDim,biases,hiddenDims,outDim,learningRate)`,
 where:
