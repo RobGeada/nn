@@ -21,8 +21,6 @@ where:
 * testY is a numpy array of test data (of size [m,outDim])
 * epochs is the number of epochs to train over
 
-Test data is fed into the training function to provide a per-epoch look at holdout error, and is never actually 'seen' by the network.
-
 To **predict** on a set of data, call:
 `net.predict(testX)`,
 where:
